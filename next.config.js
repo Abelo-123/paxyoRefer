@@ -1,7 +1,6 @@
-import { NextConfig } from "next";
-
+// next.config.js
 const NextConfig = {
-  /* config options here */
+  // Your configuration options here
 };
 
-export default NextConfig;
+module.exports = NextConfig;
