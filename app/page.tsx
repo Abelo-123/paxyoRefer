@@ -5,9 +5,9 @@ import { useSearchParams } from "next/navigation";
 
 function Content() {
     const searchParams = useSearchParams();
-    const data = searchParams.get("data");
+    const data = searchParams.get("data"); // Fetch the "data" parameter from the URL
 
-    return <p>Data: {data}</p>;
+    return <p>Data: {data}</p>; // Display the data
 }
 
 export default function HomePage() {
